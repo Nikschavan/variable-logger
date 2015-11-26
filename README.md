@@ -4,7 +4,7 @@ Replacement for `print_r()` and `var_dump()` This can be used as a WordPress `mu
 
 ## Description ##
 
-Error Logger rovides two replacement functions for `el()` for `print_r()` and `el_dump()`
+Error Logger rovides two replacement functions for `el()` for `print_r()` and `el_dump()` for `var_dump()`
 
 Usage - 
 
