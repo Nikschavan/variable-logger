@@ -1,3 +1,4 @@
 #Ignore everything other than main file
 *
 !error-logger.php
+!README.md
