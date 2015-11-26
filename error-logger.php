@@ -6,8 +6,7 @@
  * Author: Nikhil Chavan
  */
 function el( $var ) {
-	get_style(); ?>
-	<?php
+	get_style(); 
 	echo "<pre class='el_pre'><xmp>";
 	if ( is_array( $var ) ) {
 		print_r( $var );
