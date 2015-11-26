@@ -1,6 +1,6 @@
 # Error Logger #
 
-Replacement for `print_r()` and `var_dump()` This can be used as a WordPress `mu-plugin` in your WordPress development enviornment.
+Replacement for `print_r()` and `var_dump()`. This can be used as a WordPress `mu-plugin` in your WordPress development enviornment.
 
 ## Description ##
 
