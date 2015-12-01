@@ -7,6 +7,7 @@
  */
 function el( $var, $dump = 0 ) {
 	get_style(); 
+	
 	echo "<pre class='el_pre'><xmp>";
 	if ( true == $dump ) {
 		var_dump( $var );
