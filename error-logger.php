@@ -6,25 +6,8 @@
  * Author: Nikhil Chavan
  */
 function vl( $var, $dump = 0 ) {
-	get_style(); 
-	
-	echo "<pre class='el_pre'><xmp>";
-	if ( true == $dump ) {
-		var_dump( $var );
-	} else {
-
-		if ( is_array( $var ) || is_object( $var ) ) {
-			print_r( $var );
-		} else {
-			echo $var;
-		}
-
-	}
-	echo "</xmp></pre>";
-}
-
-function get_style() {
 	?>
+
 	<style type="text/css">
 		.el_pre {
 			text-align: left;
@@ -47,5 +30,20 @@ function get_style() {
 			background: rgb(61,69,75);
 		}
 	</style>
+
 	<?php
+	
+	echo "<pre class='el_pre'><xmp>";
+	if ( true == $dump ) {
+		var_dump( $var );
+	} else {
+
+		if ( is_array( $var ) || is_object( $var ) ) {
+			print_r( $var );
+		} else {
+			echo $var;
+		}
+
+	}
+	echo "</xmp></pre>";
 }
