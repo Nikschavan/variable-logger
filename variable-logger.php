@@ -16,7 +16,7 @@ function vl( $var, $dump = 0 ) {
 	?>
 
 	<style type="text/css">
-		.el_pre {
+		.vl_pre {
 			text-align: left;
 			margin: 30px 15px;
 			padding: 1em;
@@ -40,7 +40,7 @@ function vl( $var, $dump = 0 ) {
 
 	<?php
 	
-	echo "<pre class='el_pre'><xmp>";
+	echo "<pre class='vl_pre'><xmp>";
 	if ( true == $dump ) {
 		var_dump( $var );
 	} else {
