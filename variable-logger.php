@@ -5,6 +5,13 @@
  * Version: 0.1-alpha
  * Author: Nikhil Chavan
  */
+
+/**
+ * Replacement for print_r & var_dump.
+ *
+ * @param mixed $var
+ * @param bool $dump. (default: false)
+ */
 function vl( $var, $dump = 0 ) {
 	?>
 
