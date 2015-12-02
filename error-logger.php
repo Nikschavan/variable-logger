@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Error Logger
+ * Plugin Name: Variable Logger
  * Description: Replacement for print_r() and var_dump()
  * Version: 0.1-alpha
  * Author: Nikhil Chavan
  */
-function el( $var, $dump = 0 ) {
+function vl( $var, $dump = 0 ) {
 	get_style(); 
 	
 	echo "<pre class='el_pre'><xmp>";
