@@ -3,3 +3,5 @@
 !error-logger.php
 !variable-logger.php
 !README.md
+!composer.json
+!composer.lock
